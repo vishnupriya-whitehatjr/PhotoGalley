@@ -43,7 +43,6 @@ export default class App extends Component {
     this.setState({ modalVisible: visible, modalImage: image });
   }
   renderImages = (item) => {
-    console.log(item);
     return (
       <AnimatedImages imageIndex={item.index}>
         <TouchableOpacity
